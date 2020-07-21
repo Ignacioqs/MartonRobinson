@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    font-family: 'Sen', sans-serif;
+}
+
+.container {
+    padding: 0;
+    /* background-color: #fff; */
+}
+
+.navbar {
+    margin: 40px 0;
+    padding: 0 8%;
+}
+
+.navbar-brand img {
+    width: 140px;
+}
+
+.navbar-toggler-icon, .navbar-toggler-icon img {
+    width: 45px;
+}
+
+
+.navbar-toggler {
+    border: none;
+    padding: 0;
+    width: 45px;
+    margin-top: -10px;
+}
+
+.navbar-toggler:focus{
+    outline: none;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.main img {
+    width: 95%;
+    max-width: 650px;
+}
+
+.nav-link {
+    color: #a45a52;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.1em;
+    padding: 14px 0;
+    border-bottom: 1px solid rgba(164, 90, 82, .5);
+    transition: .6s ;
+}
+
+.noBorder {
+    border-bottom: none;
+}
+
+
+.nav-link:hover, .active .nav-link  {
+    color: #bcbec0;
+}
+
+.navbar-nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.carousel-caption {
+    text-transform: uppercase;
+    color: #a45a52;
+    font-size: .9em;
+    text-align: center;
+    padding: 0 10%;
+    position: relative;
+    left: 0;
+    bottom: 0px;
+}
+
+.carousel {
+    max-width: 750px;
+    margin-top: 80px;
+}
+
+.main-bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: .9em;
+}
+
+.main-bio img {
+    width: 100%;
+    max-width: 600px;
+}
+
+.bio {
+    width: 80%;
+}
+
+.bio p {
+    color: #bcbec0;
+    margin: 20px 0;
+}
+
+.fallen {
+    color: #bcbec0;
+    width: 90%;
+    margin: 0 auto;
+    font-size: .9em;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.fallen h3 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #a45a52;
+}
+
+.fallen p {
+    margin: 5px;
+}
+
+.fallen p:first-of-type {
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+.featuring {
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-size: .8em;
+}
+
+@media (min-width: 992px) {
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        width: 75%;
+    }
+
+    .navbar, .navbar-nav {
+        display: inline-block;
+        text-align: left;
+        padding: 0;
+        margin-right: 20px;
+    }
+ 
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-left: 0;
+    }
+
+    .navbar {
+        margin-top: 90px;
+    }
+
+    .navbar-nav {
+        margin-top: 20px;
+        width: 180px;
+    }
+
+    .main img {
+        margin-top: 70px;
+    }
+
+    .main-bio img {
+       margin-top: 50px;
+    }
+
+    .navbar-brand img {
+        width: 150px;
+    }
+
+    .carousel {
+        margin-top: 95px;
+    }
+
+    .currently {
+        display: inline-block;
+    }
+
+    .fallen {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .fallen {
+        text-align: left;
+        margin-left: 0;
+    }
+
+    .fallen div {
+        flex: 1 200px;
+    }
+
+}
+
+
