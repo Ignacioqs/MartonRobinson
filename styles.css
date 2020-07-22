@@ -15,7 +15,7 @@ body {
 }
 
 .navbar {
-    margin: 40px 0;
+    margin: 30px 0;
     padding: 0 8%;
 }
 
@@ -25,6 +25,7 @@ body {
 
 .navbar-toggler-icon, .navbar-toggler-icon img {
     width: 45px;
+    border-radius: none;
 }
 
 
@@ -33,7 +34,6 @@ body {
     padding: 0;
     width: 45px;
     margin-top: -10px;
-    border-radius: none;
 }
 
 .navbar-toggler:focus{
@@ -85,7 +85,7 @@ body {
     padding: 0 10%;
     position: relative;
     left: 0;
-    bottom: 0px;
+    bottom: 20px;
 }
 
 .carousel {
