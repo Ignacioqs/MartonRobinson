@@ -25,15 +25,19 @@ body {
 
 .navbar-toggler-icon, .navbar-toggler-icon img {
     width: 45px;
-    border-radius: none;
+    border-radius: 0 !important;
 }
 
+button.navbar-toggler, .navbar-toggler {
+    border-radius: 0 !important; 
+}
 
 .navbar-toggler {
     border: none;
     padding: 0;
     width: 45px;
     margin-top: -10px;
+    border-radius: 0;
 }
 
 .navbar-toggler:focus{
