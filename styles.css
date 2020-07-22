@@ -11,7 +11,7 @@ body {
 
 .container {
     padding: 0;
-    /* background-color: #fff; */
+    max-width: 900px;
 }
 
 .navbar {
