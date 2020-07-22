@@ -90,7 +90,7 @@ body {
 
 .carousel {
     max-width: 750px;
-    margin-top: 80px;
+    margin-top: 10px;
 }
 
 .main-bio {
@@ -133,6 +133,18 @@ body {
 
 .fallen p {
     margin: 5px;
+}
+
+.fallen a {
+    color:  #bcbec0;
+    text-decoration: none;
+    border-bottom: 2px solid #bcbec0;
+    transition: .5s;
+}
+
+.fallen a:hover {
+    color: #a45a52;
+    border-bottom: 2px solid #a45a52;
 }
 
 .fallen p:first-of-type {
