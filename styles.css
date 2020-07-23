@@ -19,9 +19,18 @@ body {
     padding: 0 8%;
 }
 
-.navbar-brand img {
-    width: 140px;
+.navbar-brand {
+    font-family: 'Bevan', cursive;
+    text-transform: uppercase;
+    color: #bcbec0;
+    font-size: 1.5em;
+    line-height: 1.2em;
 }
+
+.navbar-brand:hover {
+    color: #bcbec0;
+}
+
 
 .navbar-toggler-icon, .navbar-toggler-icon img {
     width: 45px;
@@ -182,6 +191,15 @@ button.navbar-toggler, .navbar-toggler {
 .iconos img {
     width: 30px;
     margin: 0 5px;
+}
+
+.dropCap::first-letter {
+    font-size: 4.9em;
+    float: left;
+    line-height: .9em;
+    padding-right: 10px;
+    color: #a45a52;
+    font-weight: 700;
 }
 
 
