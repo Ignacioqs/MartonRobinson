@@ -45,7 +45,7 @@ button.navbar-toggler, .navbar-toggler {
     border: none;
     padding: 0;
     width: 45px;
-    margin-top: -10px;
+    margin-top: -20px;
     border-radius: 0;
 }
 
@@ -185,12 +185,18 @@ button.navbar-toggler, .navbar-toggler {
 }
 
 .iconos {
-    margin-top: 80px;
+    margin-top: 20px;
 }
 
 .iconos img {
-    width: 30px;
-    margin: 0 5px;
+    width: 25px;
+    height: 25px;
+    margin: 0 4px;
+    transition: .5s;
+}
+
+.iconos img:hover {
+    opacity: 0.7;
 }
 
 .dropCap::first-letter {
@@ -201,6 +207,13 @@ button.navbar-toggler, .navbar-toggler {
     color: #a45a52;
     font-weight: 700;
 }
+
+.video {
+display: flex;
+}
+
+
+
 
 
 @media (min-width: 992px) {
@@ -268,6 +281,16 @@ button.navbar-toggler, .navbar-toggler {
     .contacto {
         margin-top: 93px;
     }
+
+    .iconos img:first-child {
+        margin-left: 0;
+    }
+
+    .iconos {
+        margin-top: 40px;
+    }
+
+   
 
 }
 
