@@ -20,7 +20,7 @@ body {
 }
 
 .navbar-brand {
-    font-family: 'Bevan', cursive;
+    font-family: 'Bevan';
     text-transform: uppercase;
     color: #bcbec0;
     font-size: 1.5em;
