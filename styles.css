@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+p {
+    color: #bcbec0;
+}
+
 body {
     background-color: #000;
     font-family: 'Sen', sans-serif;
@@ -73,6 +77,7 @@ button.navbar-toggler, .navbar-toggler {
     padding: 14px 0;
     border-bottom: 1px solid rgba(164, 90, 82, .5);
     transition: .6s ;
+    letter-spacing: 1px;
 }
 
 .noBorder {
@@ -92,7 +97,6 @@ button.navbar-toggler, .navbar-toggler {
 
 .carousel-caption {
     text-transform: uppercase;
-    color: #a45a52;
     font-size: .9em;
     text-align: center;
     padding: 0 10%;
@@ -101,17 +105,19 @@ button.navbar-toggler, .navbar-toggler {
     bottom: 20px;
 }
 
+.carousel-caption p {
+    color: #a45a52;
+}
+
 .carousel {
     max-width: 750px;
     margin-top: 10px;
 }
 
 .main-bio {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     font-size: .9em;
+    margin: 0 auto;
+    width: 80%;
 }
 
 .main-bio img {
@@ -119,9 +125,6 @@ button.navbar-toggler, .navbar-toggler {
     max-width: 600px;
 }
 
-.bio {
-    width: 80%;
-}
 
 .bio p {
     color: #bcbec0;
@@ -213,6 +216,112 @@ display: flex;
 }
 
 
+.CV {
+    color: #bcbec0;
+}
+
+.CV h1, .exhibicionesIndi h1, .teaching h1, .talks h1, .publications h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #a45a52;
+    font-weight: 700;
+}
+
+.left h2, .right h2 {
+    color: #a45a52;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin-top: 40px;
+    font-weight: 700;
+}
+
+.left p, .right p {
+    margin-bottom: 5px;
+}
+
+.space {
+    display: block;
+    margin: 35px 0;
+}
+
+.dobleSpace {
+    display: block;
+    margin: 60px 0;
+}
+
+.line {
+    display: block;
+    margin: 120px 0 60px;
+    height: 1px;
+    width: 100%;
+    background-color: #a45a52;
+}
+
+.name p {
+    text-transform: uppercase;
+    margin-top: 12px;
+}
+
+.name h2 {
+    margin: 0;
+}
+
+.teaching .space {
+    margin: 15px 0;
+}
+
+.publications {
+    margin-bottom: 200px;
+}
+
+.publications a {
+    text-transform: uppercase;
+    color: #a45a52;
+    font-weight: 700;
+    border-bottom: 1px solid #a45a52;
+    transition: .5s;
+}
+
+.publications a:hover {
+    text-decoration: none;
+    opacity: .7;
+}
+
+.bioLinks {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 -40px;
+    align-items: flex-start;
+}
+
+.bioLinks a {
+    color: #a45a52;
+    margin: 10px 0;
+    font-weight: 700;
+    border-bottom: 2px solid #a45a52;
+    transition: .5s;
+    padding-bottom: -10px;
+    line-height: 1em;
+}
+
+.bioLinks a:hover {
+    text-decoration: none;
+    opacity: .7;
+}
+
+.videos p {
+    margin: 50px 0;
+    text-align: center;
+    color: #a45a52;
+    text-transform: uppercase;
+}
+
+.videoOne {
+    margin-top: 100px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////// */
+
 
 
 
@@ -237,6 +346,8 @@ display: flex;
 
     .navbar {
         margin-top: 90px;
+        /* position: fixed; */
+        margin-right: 100px;
     }
 
     .navbar-nav {
@@ -246,6 +357,13 @@ display: flex;
 
     .main img {
         margin-top: 70px;
+    }
+    
+
+
+    .main-bio, .bio {
+        display: flex;
+        flex-direction: column;
     }
 
     .main-bio img {
@@ -290,7 +408,56 @@ display: flex;
         margin-top: 40px;
     }
 
+
+    .CV, .exhibicionesIndi, .exhibicionesGru, .teaching, .talks, .publications {
+        display: flex;
+    }
+    
+    .left, .right, .teaching .left {
+       flex-grow: 1;
+       flex-basis: 50%;
+    }
    
+    .left {
+        margin-right: 50px;
+    }
+
+    .right {
+        margin-top: 58px;
+    }
+
+    .exhibicionesGru .right {
+        margin-top: 82px;
+    }
+
+    .teaching .right {
+        margin-top: 114px;
+    }
+
+    .talks .right {
+        margin-top: 75px;
+    }
+
+    .publications .right {
+        margin-top: 137px;
+    }
+
+    .fixated {
+        position: fixed;
+    } 
+    .main-bio {
+        margin-left: 300px;
+    }
+
+   
+
+    .videoOne {
+        width: 640px;
+        height: 400px;
+        
+    }
+
+
 
 }
 
