@@ -332,6 +332,32 @@ display: flex;
     padding-top: 30px;
 } 
 
+.copyright {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.copyright p, .copyright a {
+    color: rgba(164, 90, 82, .5);
+    letter-spacing: 1px;
+    margin: 0;
+    display: inline-block; 
+}
+
+.copyright a {
+    text-decoration: underline;
+    margin-bottom: -2px;
+}
+.linksCopy p a:hover {
+   text-decoration: underline;
+}
+
 /* ////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 
@@ -468,6 +494,10 @@ display: flex;
         width: 640px;
         height: 400px;
         
+    }
+
+    .copyright {
+        margin-left: 25%;
     }
 
 
