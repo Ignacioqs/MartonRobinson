@@ -275,7 +275,7 @@ display: flex;
 }
 
 .publications {
-    margin-bottom: 200px;
+    margin-bottom: 70px;
 }
 
 .publications a {
@@ -340,7 +340,7 @@ display: flex;
     margin-top: 100px;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .copyright p, .copyright a {
@@ -356,6 +356,10 @@ display: flex;
 }
 .linksCopy p a:hover {
    text-decoration: underline;
+}
+
+.yes {
+    margin-right: 30px;
 }
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////////// */
