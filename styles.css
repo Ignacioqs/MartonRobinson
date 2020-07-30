@@ -493,7 +493,9 @@ display: flex;
     }
 
 
-  
+    .copyright { 
+        margin-top: 200px;
+    }
 
 
 
