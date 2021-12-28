@@ -1,504 +1,509 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 p {
-    color: #bcbec0;
+  color: #bcbec0;
 }
 
 body {
-    background-color: #000;
-    font-family: 'Sen', sans-serif;
+  background-color: #000;
+  font-family: "Sen", sans-serif;
 }
 
 .container {
-    padding: 0;
-    max-width: 900px;
+  padding: 0;
+  max-width: 900px;
 }
 
 .navbar {
-    margin: 30px 0;
-    padding: 0 8%;
+  margin: 30px 0;
+  padding: 0 8%;
 }
 
 .navbar-brand {
-    font-family: 'Bevan';
-    text-transform: uppercase;
-    color: #bcbec0;
-    font-size: 1.5em;
-    line-height: 1.2em;
+  font-family: "Bevan";
+  text-transform: uppercase;
+  color: #bcbec0;
+  font-size: 1.5em;
+  line-height: 1.2em;
 }
 
 .navbar-brand:hover {
-    color: #bcbec0;
+  color: #bcbec0;
 }
 
-
-.navbar-toggler-icon, .navbar-toggler-icon img {
-    width: 45px;
-    border-radius: 0 !important;
+.navbar-toggler-icon,
+.navbar-toggler-icon img {
+  width: 45px;
+  border-radius: 0 !important;
 }
 
-button.navbar-toggler, .navbar-toggler {
-    border-radius: 0 !important; 
+button.navbar-toggler,
+.navbar-toggler {
+  border-radius: 0 !important;
 }
 
 .navbar-toggler {
-    border: none;
-    padding: 0;
-    width: 45px;
-    margin-top: -20px;
-    border-radius: 0;
+  border: none;
+  padding: 0;
+  width: 45px;
+  margin-top: -20px;
+  border-radius: 0;
 }
 
-.navbar-toggler:focus{
-    outline: none;
+.navbar-toggler:focus {
+  outline: none;
 }
 
 .main {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .main img {
-    width: 95%;
-    max-width: 650px;
-    height: 100%;
+  width: 95%;
+  max-width: 650px;
+  height: 100%;
 }
 
 .nav-link {
-    color: #a45a52;
-    text-transform: uppercase;
-    font-weight: 700;
-    line-height: 1.1em;
-    padding: 14px 0;
-    border-bottom: 1px solid rgba(164, 90, 82, .5);
-    transition: .6s ;
-    letter-spacing: 1px;
+  color: #a45a52;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.1em;
+  padding: 14px 0;
+  border-bottom: 1px solid rgba(164, 90, 82, 0.5);
+  transition: 0.6s;
+  letter-spacing: 1px;
 }
 
 .noBorder {
-    border-bottom: none;
+  border-bottom: none;
 }
 
-
-.nav-link:hover, .active .nav-link  {
-    color: #bcbec0;
+.nav-link:hover,
+.active .nav-link {
+  color: #bcbec0;
 }
 
 .navbar-nav {
-    text-align: center;
-    margin-top: 10px;
+  text-align: center;
+  margin-top: 10px;
 }
 
 .colapsado {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .carousel-caption {
-    text-transform: uppercase;
-    font-size: .9em;
-    text-align: center;
-    padding: 0 10%;
-    position: relative;
-    left: 0;
-    bottom: 20px;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  text-align: center;
+  padding: 0 10%;
+  position: relative;
+  left: 0;
+  bottom: 20px;
 }
 
 .carousel-caption p {
-    color: #a45a52;
+  color: #a45a52;
 }
 
 .carousel {
-    max-width: 750px;
-    margin-top: 10px;
+  max-width: 750px;
+  margin-top: 10px;
 }
 
 .main-bio {
-    font-size: .9em;
-    margin: 0 auto;
-    width: 80%;
+  font-size: 0.9em;
+  margin: 0 auto;
+  width: 80%;
 }
 
 .main-bio img {
-    width: 100%;
-    max-width: 600px;
-    margin-top: 150px;
+  width: 100%;
+  max-width: 600px;
+  margin-top: 150px;
 }
 
-
 .bio p {
-    color: #bcbec0;
-    margin: 20px 0;
+  color: #bcbec0;
+  margin: 20px 0;
 }
 
 .fallen {
-    color: #bcbec0;
-    width: 90%;
-    margin: 0 auto;
-    font-size: .9em;
-    margin-top: 50px;
-    text-align: center;
+  color: #bcbec0;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 0.9em;
+  margin-top: 50px;
+  text-align: center;
 }
 
 .fallen h3 {
-    text-transform: uppercase;
-    font-size: 1.5em;
-    margin-bottom: 20px;
-    color: #a45a52;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #a45a52;
 }
 
 .fallen p {
-    margin: 5px;
+  margin: 5px;
 }
 
 .fallen a {
-    color:  #bcbec0;
-    text-decoration: none;
-    border-bottom: 2px solid #bcbec0;
-    transition: .5s;
+  color: #bcbec0;
+  text-decoration: none;
+  border-bottom: 2px solid #bcbec0;
+  transition: 0.5s;
 }
 
 .fallen a:hover {
-    color: #a45a52;
-    border-bottom: 2px solid #a45a52;
+  color: #a45a52;
+  border-bottom: 2px solid #a45a52;
 }
 
 .fallen p:first-of-type {
-    text-transform: uppercase;
-    font-size: 1.2em;
+  text-transform: uppercase;
+  font-size: 1.2em;
 }
 
 .featuring {
-    text-transform: uppercase;
-    margin-top: 30px;
-    font-size: .8em;
+  text-transform: uppercase;
+  margin-top: 30px;
+  font-size: 0.8em;
 }
 
 .contacto {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
 }
 
-
 .imagenContacto img {
-    width: 100%;
+  width: 100%;
 }
 
 .iconos {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .iconos img {
-    width: 25px;
-    height: 25px;
-    margin: 0 4px;
-    transition: .5s;
+  width: 25px;
+  height: 25px;
+  margin: 0 4px;
+  transition: 0.5s;
 }
 
 .iconos img:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .dropCap::first-letter {
-    font-size: 4.9em;
-    float: left;
-    line-height: .9em;
-    padding-right: 10px;
-    color: #a45a52;
-    font-weight: 700;
+  font-size: 4.9em;
+  float: left;
+  line-height: 0.9em;
+  padding-right: 10px;
+  color: #a45a52;
+  font-weight: 700;
 }
 
 .video {
-display: flex;
+  display: flex;
 }
-
 
 .CV {
-    color: #bcbec0;
+  color: #bcbec0;
 }
 
-.CV h1, .exhibicionesIndi h1, .teaching h1, .talks h1, .publications h1 {
-    font-size: 2rem;
-    text-transform: uppercase;
-    color: #a45a52;
-    font-weight: 700;
+h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #a45a52;
+  font-weight: 700;
 }
 
-.left h2, .right h2 {
-    color: #a45a52;
-    text-transform: uppercase;
-    font-size: 1.2rem;
-    margin-top: 40px;
-    font-weight: 700;
+.left h2,
+.right h2 {
+  color: #a45a52;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  margin-top: 40px;
+  font-weight: 700;
 }
 
-.left p, .right p {
-    margin-bottom: 5px;
+.left p,
+.right p {
+  margin-bottom: 5px;
 }
 
 .space {
-    display: block;
-    margin: 35px 0;
+  display: block;
+  margin: 35px 0;
 }
 
 .dobleSpace {
-    display: block;
-    margin: 60px 0;
+  display: block;
+  margin: 60px 0;
 }
 
 .line {
-    display: block;
-    margin: 120px 0 60px;
-    height: 1px;
-    width: 100%;
-    background-color: #a45a52;
+  display: block;
+  margin: 120px 0 60px;
+  height: 1px;
+  width: 100%;
+  background-color: #a45a52;
 }
 
 .name p {
-    text-transform: uppercase;
-    margin-top: 12px;
+  text-transform: uppercase;
+  margin-top: 12px;
 }
 
 .name h2 {
-    margin: 0;
+  margin: 0;
 }
 
 .teaching .space {
-    margin: 15px 0;
+  margin: 15px 0;
 }
 
 .publications {
-    margin-bottom: 70px;
+  margin-bottom: 70px;
 }
 
 .publications a {
-    text-transform: uppercase;
-    color: #a45a52;
-    font-weight: 700;
-    border-bottom: 1px solid #a45a52;
-    transition: .5s;
+  text-transform: uppercase;
+  color: #a45a52;
+  font-weight: 700;
+  border-bottom: 1px solid #a45a52;
+  transition: 0.5s;
 }
 
 .publications a:hover {
-    text-decoration: none;
-    opacity: .7;
+  text-decoration: none;
+  opacity: 0.7;
 }
 
 .bioLinks {
-    display: flex;
-    flex-direction: column;
-    margin: 30px 0 -40px;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0 -40px;
+  align-items: flex-start;
 }
 
 .bioLinks a {
-    color: #a45a52;
-    margin: 10px 0;
-    font-weight: 700;
-    border-bottom: 2px solid #a45a52;
-    transition: .5s;
-    padding-bottom: -10px;
-    line-height: 1em;
+  color: #a45a52;
+  margin: 10px 0;
+  font-weight: 700;
+  border-bottom: 2px solid #a45a52;
+  transition: 0.5s;
+  padding-bottom: -10px;
+  line-height: 1em;
 }
 
 .bioLinks a:hover {
-    text-decoration: none;
-    opacity: .7;
+  text-decoration: none;
+  opacity: 0.7;
 }
 
 .videos p {
-    margin: 50px 0;
-    text-align: center;
-    color: #a45a52;
-    text-transform: uppercase;
+  margin: 50px 0;
+  text-align: center;
+  color: #a45a52;
+  text-transform: uppercase;
 }
 
 .videoOne {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 .fixated {
-    position: fixed;
-    background-color: #000;
-    width: 100%;
-    margin-top: 0;
-    padding-top: 30px;
-} 
-
-.copyright { 
-    text-transform: uppercase;
-    font-size: .6em;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    text-align: center;
+  position: fixed;
+  background-color: #000;
+  width: 100%;
+  margin-top: 0;
+  padding-top: 30px;
 }
 
-.copyright p, .copyright a {
-    color: rgba(164, 90, 82, .4);
-    letter-spacing: 1px;
-    margin: 0;
-    display: inline-block; 
+.copyright {
+  text-transform: uppercase;
+  font-size: 0.6em;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.copyright p,
+.copyright a {
+  color: rgba(164, 90, 82, 0.4);
+  letter-spacing: 1px;
+  margin: 0;
+  display: inline-block;
 }
 
 .copyright a {
-    text-decoration: underline;
-    margin-bottom: -2px;
+  text-decoration: underline;
+  margin-bottom: -2px;
 }
 
 .linksCopy p a:hover {
-   text-decoration: underline;
+  text-decoration: underline;
 }
-
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////////// */
 
-
-
-
 @media (min-width: 992px) {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+  }
 
-    .container {
-        display: flex;
-        justify-content: space-between;
-        width: 75%;
-    }
+  .performances .right {
+    margin-top: 120px;
+  }
 
-    .navbar, .navbar-nav {
-        display: inline-block;
-        text-align: left;
-        padding: 0;
-        margin-right: 20px;
-    }
- 
-    .navbar-expand-lg .navbar-nav .nav-link {
-        padding-left: 0;
-    }
+  .navbar,
+  .navbar-nav {
+    display: inline-block;
+    text-align: left;
+    padding: 0;
+    margin-right: 20px;
+  }
 
-    .navbar {
-        margin-top: 90px;
-        /* position: fixed; */
-        margin-right: 100px;
-    }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 0;
+  }
 
-    .navbar-nav {
-        margin-top: 20px;
-        width: 180px;
-    }
+  .navbar {
+    margin-top: 90px;
+    /* position: fixed; */
+    margin-right: 100px;
+  }
 
-    .main img {
-        margin-top: 70px;
-    }
-    
+  .navbar-nav {
+    margin-top: 20px;
+    width: 180px;
+  }
 
+  .main img {
+    margin-top: 70px;
+  }
 
-    .main-bio, .bio {
-        display: flex;
-        flex-direction: column;
-    }
+  .main-bio,
+  .bio {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .main-bio img {
-       margin-top: 50px;
-    }
+  .main-bio img {
+    margin-top: 50px;
+  }
 
-    .navbar-brand img {
-        width: 150px;
-    }
+  .navbar-brand img {
+    width: 150px;
+  }
 
-    .carousel {
-        margin-top: 95px;
-    }
+  .carousel {
+    margin-top: 95px;
+  }
 
-    .currently {
-        display: inline-block;
-    }
+  .currently {
+    display: inline-block;
+  }
 
-    .fallen {
-        display: flex;
-        align-items: flex-end;
-    }
+  .fallen {
+    display: flex;
+    align-items: flex-end;
+  }
 
-    .fallen {
-        text-align: left;
-        margin-left: 0;
-    }
+  .fallen {
+    text-align: left;
+    margin-left: 0;
+  }
 
-    .fallen div {
-        flex: 1 200px;
-    }
+  .fallen div {
+    flex: 1 200px;
+  }
 
-    .contacto {
-        margin-top: 93px;
-    }
+  .contacto {
+    margin-top: 93px;
+  }
 
-    .iconos img:first-child {
-        margin-left: 0;
-    }
+  .iconos img:first-child {
+    margin-left: 0;
+  }
 
-    .iconos {
-        margin-top: 40px;
-    }
+  .iconos {
+    margin-top: 40px;
+  }
 
+  .CV,
+  .exhibicionesIndi,
+  .performances,
+  .exhibicionesGru,
+  .teaching,
+  .talks,
+  .publications {
+    display: flex;
+  }
 
-    .CV, .exhibicionesIndi, .exhibicionesGru, .teaching, .talks, .publications {
-        display: flex;
-    }
-    
-    .left, .right, .teaching .left {
-       flex-grow: 1;
-       flex-basis: 50%;
-    }
-   
-    .left {
-        margin-right: 50px;
-    }
+  .exhibicionesIndi .right {
+    margin-top: 85px;
+  }
 
-    .right {
-        margin-top: 58px;
-    }
+  .left,
+  .right,
+  .teaching .left {
+    flex-grow: 1;
+    flex-basis: 50%;
+  }
 
-    .exhibicionesGru .right {
-        margin-top: 82px;
-    }
+  .left {
+    margin-right: 50px;
+  }
 
-    .teaching .right {
-        margin-top: 114px;
-    }
+  .right {
+    margin-top: 58px;
+  }
 
-    .talks .right {
-        margin-top: 75px;
-    }
+  .exhibicionesGru .right {
+    margin-top: 82px;
+  }
 
-    .publications .right {
-        margin-top: 137px;
-    }
+  .teaching .right {
+    margin-top: 114px;
+  }
 
-    .fixated {
-        position: fixed;
-        background-color: transparent;
-    } 
-    .main-bio {
-        margin-left: 300px;
-    }
+  .talks .right {
+    margin-top: 75px;
+  }
 
-    .videoOne {
-        width: 640px;
-        height: 400px;   
-    }
+  .publications .right {
+    margin-top: 137px;
+  }
 
+  .fixated {
+    position: fixed;
+    background-color: transparent;
+  }
+  .main-bio {
+    margin-left: 300px;
+  }
 
-    .copyright { 
-        margin-top: 200px;
-    }
+  .videoOne {
+    width: 640px;
+    height: 400px;
+  }
 
-
-
+  .copyright {
+    margin-top: 200px;
+  }
 }
-
-
